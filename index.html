@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kelvin's Creative Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h1>Kelvin's Creative Portfolio</h1>
+    </header>
+
+    <!-- Navigation Menu -->
+    <nav>
+        <ul class="menu">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#portfolio">Portfolio</a>
+                <ul class="submenu">
+                    <li><a href="#project1">Project 1</a></li>
+                    <li><a href="#project2">Project 2</a></li>
+                    <li><a href="#project3">Project 3</a></li>
+                </ul>
+            </li>
+            <li><a href="#products">Products</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Content Section -->
+    <section id="home" class="content">
+        <h2>Welcome to My Portfolio</h2>
+        <p>This is Kelvin's creative portfolio where I showcase my projects, skills, and services. Navigate through the sections to learn more about me.</p>
+    </section>
+
+    <section id="about" class="content">
+        <h2>About Me</h2>
+        <p>I am a creative professional with a background in computer science and digital design.</p>
+        <p>Skills: Web design, content creation, and UI/UX.</p>
+    </section>
+
+    <section id="portfolio" class="content">
+        <h2>Portfolio</h2>
+        <p>Here are some of my past projects:</p>
+        <ul>
+            <li id="project1">Project 1: Website Redesign for Local Business</li>
+            <li id="project2">Project 2: Mobile App UI/UX Design</li>
+            <li id="project3">Project 3: Branding and Logo Design</li>
+        </ul>
+    </section>
+
+    <section id="products" class="content">
+        <h2>Products</h2>
+        <p>Check out my digital products available for purchase, including design templates, eBooks, and more.</p>
+    </section>
+
+    <section id="contact" class="content">
+        <h2>Contact Me</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name"><br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email"><br><br>
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="5" cols="30"></textarea><br><br>
+            <input type="submit" value="Send">
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>Follow me on:</p>
+        <ul class="social-media">
+            <li><a href="https://github.com/">GitHub</a></li>
+            <li><a href="https://linkedin.com/">LinkedIn</a></li>
+            <li><a href="https://twitter.com/">Twitter</a></li>
+        </ul>
+        <p>&copy; 2024 Kelvin's Portfolio. All rights reserved.</p>
+    </footer>
+</body>
+</html>
