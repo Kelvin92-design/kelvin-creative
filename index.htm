@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Kelvin Creative Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation Menu -->
+    <header>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li class="dropdown">
+                    <a href="#portfolio" class="dropbtn">Portfolio</a>
+                    <div class="dropdown-content">
+                        <a href="#gallery">Gallery</a>
+                        <a href="#projects">Project Details</a>
+                        <a href="#resume">Resume</a>
+                    </div>
+                </li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#ecommerce">E-commerce</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home">
+        <h1>Kelvin's Creative Portfolio</h1>
+        <p>Bringing ideas to life through innovative design and development.</p>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I'm Kelvin, a creative professional with a passion for design and development.</p>
+        <p><strong>Skills:</strong> Web Design, Graphic Design, Content Creation.</p>
+        <img src="headshot.jpg" alt="Kelvin headshot" class="profile-img">
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio">
+        <h2>Portfolio</h2>
+        <div id="gallery">
+            <h3>Gallery</h3>
+            <!-- Add portfolio images here -->
+        </div>
+        <div id="projects">
+            <h3>Project Details</h3>
+            <p>Details about my work on various projects.</p>
+        </div>
+        <div id="resume">
+            <h3>Resume/CV</h3>
+            <a href="resume.pdf" download>Download my resume</a>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products">
+        <h2>Products</h2>
+        <p>Explore our digital products and creative tools.</p>
+        <div class="product-list">
+            <div class="product">
+                <img src="product1.jpg" alt="Product 1">
+                <p>Digital Guide for Designers</p>
+            </div>
+            <!-- More products here -->
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form action="contact_form.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <!-- E-commerce Section -->
+    <section id="ecommerce">
+        <h2>E-commerce</h2>
+        <p>Buy creative tools and resources directly from the site.</p>
+    </section>
+
+</body>
+</html>
